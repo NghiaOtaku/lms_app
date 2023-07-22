@@ -1,0 +1,35 @@
+.thumbnail.cus-box-img {
+    padding-top: 56.25%;
+    border-radius: 0;
+}
+.cus-box-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.cus-layout {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+.cus-card {
+    padding: 80px 70px 10px !important;
+    border-top: 0;
+    background: transparent !important;
+    & > .ant-card-body {
+        background-color: #fff;
+        border-radius: 16px !important;
+    }
+}

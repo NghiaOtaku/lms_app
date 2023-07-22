@@ -1,0 +1,79 @@
+.count {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 14px;
+    .space {
+        margin-top: 1px;
+        opacity: 0.8;
+        padding: 0 8px;
+    }
+}
+.btn-action {
+    background-color: orange;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+.nav-bar-lesson {
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    color: #ccc !important;
+    display: flex;
+    border-bottom: 1px #ccc solid;
+    justify-content: space-between;
+    padding: 10px 40px 10px 20px;
+    & > div {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 16px;
+        overflow: hidden;
+    }
+    svg {
+        width: 35px !important;
+        margin-right: 10px;
+    }
+}
+.box {
+    overflow: hidden;
+}
+.player-doc {
+    padding-top: 56.25%;
+    width: 100%;
+    position: relative;
+    .player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        img {
+            border-radius: 10px !important;
+        }
+    }
+}
+
+.site-collapse-custom-collapse {
+    background-color: #fff;
+
+    .site-collapse-custom-panel {
+        margin-bottom: 8px;
+        overflow: hidden;
+        background: #f7f7f7;
+        border: 0px;
+        border-radius: 2px;
+    }
+    .ant-collapse-content {
+        background-color: #fff !important;
+        .ant-collapse-content-box {
+            padding-bottom: 0 !important;
+        }
+    }
+}
