@@ -34,7 +34,7 @@ const Home = () => {
     useEffect(() => {
         if (typeCourse.length > 0) {
             setCourses1(courses.filter((x) => x.type === typeCourse[0]?._id));
-            setCourses2(courses.filter((x) => x.type === typeCourse[1]?._id));
+            setCourses2(courses.filter((x) => x.type === typeCourse[2]?._id));
         }
     }, [dispatch, courses, typeCourse]);
     return (
