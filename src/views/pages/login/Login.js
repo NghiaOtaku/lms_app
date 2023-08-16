@@ -56,7 +56,7 @@ const Login = () => {
           <div style={{ width: "600px" }}>
             <Card>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h1>Đăng nhập vào CMS APP</h1>
+                <h1>Đăng nhập vào LMS APP</h1>
                 {type == "start" ? (
                   <div></div>
                 ) : (
